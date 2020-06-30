@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -105,10 +105,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _utils_source__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/source */ "./utils/source.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.scss */ "./pages/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/zhanghaohua/Documents/GitHub/test/pages/index.js";
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
+ // import index.scss;
 
 function HomePage() {
   const data = Object(_utils_source__WEBPACK_IMPORTED_MODULE_1__["getChatSource"])();
@@ -116,51 +119,179 @@ function HomePage() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 13
+      lineNumber: 9,
+      columnNumber: 5
     }
   }, __jsx("div", {
-    style: {
-      width: '200px',
-      height: '80px',
-      backgroundColor: 'yellow',
-      fontSize: '24px',
-      textAlign: 'center'
-    },
+    class: "header-wrapper",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 10,
       columnNumber: 9
     }
   }, __jsx("span", {
+    class: "header-action",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 10
+    }
+  }, "<"), __jsx("div", {
+    class: "header-avatar",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 10
+    }
+  }, __jsx("img", {
+    src: "https://static.it1352.com/Content/img/login_register.png",
+    alt: "avatar",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 10
+      columnNumber: 14
     }
-  }, "<"), __jsx("img", {
-    src: "https://static.it1352.com/Content/img/login_register.png",
-    alt: "",
+  }), "Johnson"), __jsx("span", {
+    class: "header-action",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 15,
       columnNumber: 10
     }
-  })), data.map((item, index) => __jsx("div", {
-    key: index.toString(),
+  }, "...")), __jsx("div", {
+    class: "dialog-list",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
-      columnNumber: 39
+      columnNumber: 6
     }
-  }, item.msg)));
+  }, __jsx("div", {
+    class: "dialog-item",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 10
+    }
+  }, __jsx("div", {
+    class: "dialog-time",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 14
+    }
+  }, "13:46"), __jsx("div", {
+    class: "dialog-text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 14
+    }
+  }, "HELLO HELLO HELLO HELLO HELLO")), __jsx("div", {
+    class: "dialog-item",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 10
+    }
+  }, __jsx("div", {
+    class: "dialog-time",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 14
+    }
+  }, "13:47"), __jsx("div", {
+    class: "dialog-text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 14
+    }
+  }, "HELLO HELLO HELLO HELLO HELLO")), __jsx("div", {
+    class: "dialog-item",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 10
+    }
+  }, __jsx("div", {
+    class: "dialog-time",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 14
+    }
+  }, "13:48"), __jsx("div", {
+    class: "dialog-text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 14
+    }
+  }, "HELLO HELLO HELLO HELLO HELLO")), data.map((item, index) => __jsx("div", {
+    key: index.toString(),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 40
+    }
+  }, item.msg))), __jsx("div", {
+    class: "footer-wrapper",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 6
+    }
+  }, __jsx("input", {
+    type: "text",
+    class: "footer-input",
+    placeholder: "Message",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 10
+    }
+  }), __jsx("button", {
+    class: "footer-button",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 10
+    }
+  }, "Send")));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (HomePage);
+
+/***/ }),
+
+/***/ "./pages/index.scss":
+/*!**************************!*\
+  !*** ./pages/index.scss ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -191,7 +322,7 @@ const getChatSource = () => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
